@@ -249,3 +249,23 @@ textarea {
     line-height: 1.8;
     margin: 0;
 }
+
+.app-link-area {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.app-link-button {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.app-link-button:hover {
+    background: #3578c6;
+}
