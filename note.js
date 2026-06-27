@@ -237,7 +237,7 @@ itemInput.addEventListener("keydown", function (event) {
 });
 
 backButton.addEventListener("click", function () {
-    location.href = "index.html";
+    location.href = "app.html";
 });
 
 renderItems();

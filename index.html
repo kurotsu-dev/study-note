@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Study Note</title>
+    <title>Programming Study Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,37 +12,21 @@
 
     <div class="container">
 
-        <h1>📖 Programming Study Note</h1>
+        <h1>🌐 Programming Study Portfolio</h1>
 
-        <div class="input-area">
-
-            <input
-                type="text"
-                id="categoryInput"
-                placeholder="例：HTML・CSS・JavaScript"
-            >
-
-            <button id="addButton">
-                追加
-            </button>
-
-        </div>
-
-        <div class="export-area">
-            <button id="exportButton">
-                📤 ポートフォリオ用データを書き出す
-            </button>
-        </div>
+        <p class="portfolio-description">
+            私が学習したプログラミング内容をまとめたポートフォリオです。<br>
+            HTML・CSS・JavaScriptを使って、学習ノートアプリとして作成しました。
+        </p>
 
         <hr>
 
-        <h2>現在のカテゴリ</h2>
-
-        <ul id="categoryList"></ul>
+        <div id="portfolioList"></div>
 
     </div>
 
-    <script src="script.js"></script>
+    <script src="portfolio-data.js"></script>
+    <script src="portfolio.js"></script>
 
 </body>
 
