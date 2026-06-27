@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: "Yu Gothic", "Meiryo", sans-serif;
+    background: #f5f5f5;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.input-area input {
+    flex: 1;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+button {
+    padding: 10px 18px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #4a90e2;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background: #3578c6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.category-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.category-box {
+    flex: 1;
+    background: #f0f0f0;
+    padding: 18px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-sizing: border-box;
+}
+
+.category-box:hover {
+    background: #e3e3e3;
+}
+
+.delete-button {
+    width: 100px;
+    height: 58px;
+    flex-shrink: 0;
+    background: #e74c3c;
+    color: white;
+}
+
+.delete-button:hover {
+    background: #c0392b;
+}
+
+textarea {
+    min-height: 90px;
+    line-height: 1.8;
+    resize: vertical;
+}
+
+.button-area {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.back-area {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.export-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.export-area button {
+    background: #2ecc71;
+}
+
+.export-area button:hover {
+    background: #27ae60;
+}
+
+.item-box {
+    background: #f8f8f8;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.item-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    user-select: none;
+    background: #eeeeee;
+    transition: background-color 0.2s;
+}
+
+.item-header:hover {
+    background: #e0e0e0;
+}
+
+.item-title {
+    flex: 1;
+    margin-left: 8px;
+}
+
+.item-box textarea {
+    width: calc(100% - 30px);
+    margin: 15px;
+    min-height: 150px;
+}
+
+.item-box .button-area {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0 15px 15px;
+}
+
+.item-box .delete-button {
+    width: auto;
+    height: auto;
+    padding: 10px 18px;
+    background: #e74c3c;
+}
+
+.item-box .delete-button:hover {
+    background: #c0392b;
+}
+
+.note-display {
+    white-space: pre-wrap;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 18px;
+    margin: 15px;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* ------------------------------
+   portfolio.html
+------------------------------ */
+
+.portfolio-description {
+    text-align: center;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.portfolio-category {
+    margin-bottom: 35px;
+}
+
+.portfolio-category-title {
+    border-left: 6px solid #4a90e2;
+    padding-left: 12px;
+    font-size: 24px;
+}
+
+.portfolio-item {
+    background: #f8f8f8;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 18px;
+}
+
+.portfolio-item-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.portfolio-note {
+    white-space: pre-wrap;
+    line-height: 1.8;
+    margin: 0;
+}
